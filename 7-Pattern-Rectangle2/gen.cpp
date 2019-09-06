@@ -1,12 +1,13 @@
 #include <cstdio>
 #include <algorithm>
 #include <vector>
-#include <cstdlib>
 #include <ctime>
+#include <cstdlib>
 using namespace std;
 int main(){
 	srand(time(NULL));
-	int a = rand()%500;
-	printf("%d\n",a);
+	int n = rand()%500;
+	int m = rand()%500;
+	printf("%d %d\n",n,m);
     return 0;
 }
