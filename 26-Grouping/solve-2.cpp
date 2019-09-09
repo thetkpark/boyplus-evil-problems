@@ -38,15 +38,16 @@ int main(){
 		}
 		if(diff < mn){
 			mn = diff;
+			for(int i=0;i<n;i++){
+				printf("%d ",bi[i]);
+			}
+			printf("sum1 = %d sum2 = %d\n",sum1,sum2);
+			printf("mn = %d\n",mn);
 		}
-		for(int i=0;i<n;i++){
-			printf("%d ",bi[i]);
-		}
-		printf("sum1 = %d sum2 = %d\n",sum1,sum2);
 		cnt++;
 	}
 	printf("%d\n", mn);
-    return 0;
+	return 0;
 }
 /*
 5
