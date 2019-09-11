@@ -28,7 +28,7 @@ public class Main{
       p50 = sorted[(int)p50 - 1] + ((p50 - (int) p50) * (sorted[(int)p50] - sorted[(int)p50 - 1]));
       p30 = sorted[(int)p30 - 1] + ((p30 - (int) p30) * (sorted[(int)p30] - sorted[(int)p30 - 1]));
       p10 = sorted[(int)p10 - 1] + ((p10 - (int) p10) * (sorted[(int)p10] - sorted[(int)p10 - 1]));
-      
+  
 
       for(int i=0;i<n;i++){
         if(score[i]>=p90) System.out.print("A ");
