@@ -37,9 +37,7 @@ public class Main{
         else if(score[i]>=p30) System.out.print("D ");
         else if(score[i]>=p10) System.out.print("E ");
         else System.out.print("F ");
-      }
-
-    
+      }    
   }
 }
         
