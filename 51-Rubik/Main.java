@@ -1,8 +1,7 @@
 import java.util.Scanner;
-public class RubikTurn {
+public class Main{
 	public static void main(String[] args){
 	    //initial state of rubik
-		RubikTurn rt = new RubikTurn();
 		int[][][] rubik = {
 				{   {1,10,19},
                     {2,11,20},
