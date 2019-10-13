@@ -16,13 +16,17 @@ Then q line follow. The i-th line contains two positive integer x and y.
 
 ### Sample I/O
 #### Input 1
-> 5 3
+```
+5 3
 2 3
 1 4
 4 5
+```
 
 #### Output 1
->1 2 2 2 1
+```
+1 2 2 2 1
+```
 
 
 

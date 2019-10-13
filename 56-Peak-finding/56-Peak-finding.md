@@ -16,12 +16,13 @@ The second line contains many integer each integer represents the peak element i
 
 ### Sample I/O
 #### Input 1
->7
+```
+7
 3 4 1 3 7 3 8
+```
 
 #### Output 1
->3
+```
+3
 4 7 8 
-
-
-
+```

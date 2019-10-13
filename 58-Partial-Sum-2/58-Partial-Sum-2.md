@@ -16,15 +16,19 @@ The next q line follow. The i-th line contains two positive integer a and b (0<=
 
 ### Sample I/O
 #### Input 1
-> 4
+```
+4
 3 1 3 1
 2
 2 3
 0 3
+```
 
 #### Output 1
->4
+```
+4
 8
+```
 
 
 
