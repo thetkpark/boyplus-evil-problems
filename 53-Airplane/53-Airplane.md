@@ -2,9 +2,9 @@
 **Difficulty**: `Mid`
 - - - 
 ### Description
-> Tomorrow Goairline have many airplanes. Each of them has two seat columns and each column hasN seats. The airline assign passenger seat by consider the passenger queue (first comes first serves) and weight of passenger. Each passenger is assigned a seat according to the following rules:\
-1. A passenger will sit on the column that has lower total weight.\
-2. If total weight of both columns are equal passenger will sit on the left column.\
+> Tomorrow Goairline have many airplanes. Each of them has two seat columns and each column hasN seats. The airline assign passenger seat by consider the passenger queue (first comes first serves) and weight of passenger. Each passenger is assigned a seat according to the following rules:
+1. A passenger will sit on the column that has lower total weight.
+2. If total weight of both columns are equal passenger will sit on the left column.
 3. If a passenger needs to sit on the column that is full, this passenger will replace the passenger who has the lowest weight on that column. The replaced passenger will then be seated on another column instead. In case of there are more than one lowest weighted passengers, select the one who is sitting in the rearmost seat.
 
 ### Input
