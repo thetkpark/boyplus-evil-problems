@@ -1,4 +1,9 @@
 ## Median#1
+
+#### Difficulty: `Low`
+
+- - -
+
 ### Description
 > You are given three distinct integer a, b, and c (all of three integers are different). Write the program to find the median of a, b, and c.
 

@@ -1,5 +1,10 @@
 ## Train bomb
+#### Difficulty: `Low`
+
+- - -
+
 ### Description
+
 > You are on a vacation. You are taking the train from China to Russia. Unfortunately, the train that you are taking has a boom. The terrorist left the message that there is a bomb on one of the carts. Although the passengers are freaking out, you remain calm. Because you are the greatest programmer of all time. There is no time wasted for the panic attack. You take your laptop out of your backpack and start coding. You want to find out which train cart would be safe to stay. The bomb has a range of one train carts. For example, if the bomb is placed in cart 5. Cart 4,5,6 will get destroy together. You want to find where you can stay safe and continue your glory programmer life.
 
 ### Input

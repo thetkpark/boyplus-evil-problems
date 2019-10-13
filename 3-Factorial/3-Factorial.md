@@ -1,5 +1,10 @@
 ## Factorial
+#### Difficulty: `Low`
+
+- - -
+
 ### Description
+
 > Given one positive integer N. Find the factorial of that positive integer.
 
 ### Input

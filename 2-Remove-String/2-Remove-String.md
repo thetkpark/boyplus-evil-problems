@@ -1,5 +1,10 @@
 ## Remove String
+#### Difficulty: `Low`
+
+- - -
+
 ### Description
+
 > You are given two strings str1, and str2. If the shorter string appears in the longer string, please remove the shorter string that appear in the longer string. (case sensitive)
 **str1 and str2 will not has the equals length.**
 

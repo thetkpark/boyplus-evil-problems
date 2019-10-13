@@ -1,5 +1,10 @@
 ## Prime Number#1
+#### Difficulty: `Low`
+
+- - -
+
 ### Description
+
 > Given the positive integer N and check that is prime number or not.
 
 ### Input
