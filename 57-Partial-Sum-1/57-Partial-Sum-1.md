@@ -6,9 +6,13 @@
 
 ### Input
 >There are q+3 lines of input.
+
 The first line represents N (the size of array) (1<=N<=1,000)
+
 The second line contains N integers the i-th integer represents to A[i] (the integer in array). (1<=A[i]<=1,000).
+
 The third line represents q (the number of query). (1<=q<=1,000).
+
 The next q lines follow. The i-th line contains two positive integers a and b (0<=a<=b<N).
 
 ### Output
