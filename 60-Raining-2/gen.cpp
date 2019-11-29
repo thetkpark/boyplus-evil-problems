@@ -9,8 +9,6 @@ int main(){
 	srand(time(NULL));
 	int n = rand()%maxn+1;
 	int q = rand()%maxn+1;
-	n = 70000;
-	q = 70000;
 	printf("%d %d\n",n,q);
 	for(int i=0;i<q;i++){
 		int x = 0,y=-1;
