@@ -9,8 +9,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        //int i = 0;
-        int length = 4;
         String[] done = str.split(" ");
         for(int i=0;i<done.length;i++){
             switch (done[i]) {
