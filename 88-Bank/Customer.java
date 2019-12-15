@@ -1,10 +1,8 @@
-
-public class BankInformation {
-
+public class Customer {
     private String name;
     private int age;
 
-    public BankInformation(String name,int age){
+    public Customer(String name,int age){
         this.name = name;
         this.age = age;
     }
@@ -21,6 +19,4 @@ public class BankInformation {
     public void setName(String name) {
         this.name = name;
     }
-
-
 }

@@ -1,13 +1,9 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- * BankCustomer
- */
-public class BankCustomer extends BankInformation{
-    
+public class BankCustomer extends Customer {
     private ArrayList<SavingAccount> acc = new ArrayList<>();
-    
+
     public BankCustomer(String name,int age){
         super(name,age);
     }
@@ -16,8 +12,8 @@ public class BankCustomer extends BankInformation{
         this.acc.add(a);
     }
 
-    public int getTotalBalance(){
-        int sum = 0;
+    public double getTotalBalance(){
+        double sum = 0;
         Iterator<SavingAccount> it = acc.iterator();
         while(it.hasNext()){
             SavingAccount s = it.next();
@@ -25,5 +21,4 @@ public class BankCustomer extends BankInformation{
         }
         return sum;
     }
-    
 }

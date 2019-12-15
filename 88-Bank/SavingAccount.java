@@ -1,8 +1,4 @@
-/**
- * SavingAccount
- */
 public class SavingAccount {
-
     private double balance;
 
     public SavingAccount(){
