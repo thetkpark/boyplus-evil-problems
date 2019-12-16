@@ -1,14 +1,5 @@
-// i: 5
-// i: 4 6 2 1 5
-// o: Summation: 18.0
-// o: Average: 3.6
-// o: Max: 6.0
-// o: Min: 1.0
-// output must be floating point !
-
 import java.util.Scanner;
 public class Main {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
