@@ -1,8 +1,3 @@
-// You are given 1 line of String and you need to find if this string is Palindrome String or not.
-// Input: The only one line of String.
-// Output: Output "YES" if this String is Palindrome String and"No" if this String is not Palindrome String.
-
-
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +11,9 @@ public class Main {
                 break;
             }
         }
-        String ans = is ? "YES" : "NO";
-        System.out.println(ans);
+        if(is == true)
+            System.out.println("YES");
+        else
+            System.out.println("NO");
     }
 }
