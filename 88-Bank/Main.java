@@ -8,13 +8,13 @@ public class Main {
 
         // Create 1st Customer
         BankCustomer b1 = new BankCustomer("Tutor", 15);
-        b1.AddAccout(s1);
+        b1.AddAccount(s1);
         s1.withdraw(200);
         s1.deposit(500);
-        b1.AddAccout(s2);
+        b1.AddAccount(s2);
         System.out.println(b1.getName());
         System.out.println(b1.getTotalBalance());
-        b1.AddAccout(s3);
+        b1.AddAccount(s3);
         System.out.println(b1.getTotalBalance());
         s1.withdraw(200);
         s1.deposit(500);
@@ -23,10 +23,9 @@ public class Main {
         BankCustomer b2 = new BankCustomer("Boy", 15);
         System.out.println(b2.getName());
         System.out.println(b2.getTotalBalance());
-        b2.AddAccout(s1);
+        b2.AddAccount(s1);
         s2.deposit(5000);
         s2.withdraw(200);
-        b2.AddAccout(s2);
+        b2.AddAccount(s2);
         System.out.println(b2.getTotalBalance());
-    }
 }

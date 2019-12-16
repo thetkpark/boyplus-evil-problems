@@ -8,7 +8,7 @@ public class BankCustomer extends Customer {
         super(name,age);
     }
 
-    public void AddAccout(SavingAccount a){
+    public void AddAccount(SavingAccount a){
         this.acc.add(a);
     }
 
