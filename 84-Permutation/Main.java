@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main{
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 		int q = sc.nextInt();
 		for(int qq=0;qq<q;qq++){
 			String str1 = sc.next(),str2 = sc.next();
