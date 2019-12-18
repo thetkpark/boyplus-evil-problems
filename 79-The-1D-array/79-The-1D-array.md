@@ -11,8 +11,8 @@
 
 ### Input
 
->There are 2 lines of input.
->The first line is the size of array (1<=n<=100). 
+>There are 2 lines of input.\
+>The first line is the size of array (1<=n<=100).\ 
 >The second line contains n integer, for each integer represent to A[i] (0<=A[i]<=100).
 
 ### Output
