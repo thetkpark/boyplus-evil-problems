@@ -76,12 +76,3 @@ int main(){
 		printf("(%d,%d)\n",ans[i].first,ans[i].second);
 	}
 }
-/*
-6 7
-HGGGGGH
-GGGGGGG
-GGGGHGG
-GGGGGGG
-GHGGGGG
-HGGGGGH
-*/
