@@ -4,7 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-const int maxn = 50,maxm = 50,maxai=1000000;
+const int maxn = 500,maxm = 500,maxai=1000000;
 int main(){
 	srand(time(NULL));
 	int n = rand()%maxn+1;
