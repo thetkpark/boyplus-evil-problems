@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class SwapArray{
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -18,7 +18,7 @@ public class SwapArray{
 			right-=2;
 		}
 		for(int i=0;i<n;i++){
-			System.out.prinf("%.2f ",arr[i]);
+			System.out.printf("%.2f ",arr[i]);
 		}
 	}
 }
