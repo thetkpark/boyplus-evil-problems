@@ -27,8 +27,9 @@ int main(){
 				while(y >= 0 && str[y][j] != 'X')
 					mp[y--][j]++;
 				y = i+1;
-				while(y < n && str[y][i] != 'X')
+				while(y < n && str[y][j] != 'X'){
 					mp[y++][j]++;
+				}
 				int x = j-1;
 				while(x >= 0 && str[i][x] != 'X')
 					mp[i][x--]++;
