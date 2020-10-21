@@ -8,14 +8,17 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         double sum = 0;
-        double mi = 1000000000;
-        double ma = -1000000000;
+        double mi = arr[0];
+        double ma = arr[0];
         for(int i=0;i<n;i++){
             sum += arr[i];
             if(arr[i] > ma) ma = arr[i];
             if(arr[i] < mi) mi = arr[i];
         }
         double avg = sum/(double)n;
-        System.out.println("Summation: "+sum+"\nAverage: "+avg+"\nMax: "+ma+"\nMin: "+mi);
+        System.out.printf("Summation: "+"%.2f\n",sum);
+        System.out.printf("Average: "+"%.2f\n",avg);
+        System.out.printf("Max: "+"%.2f\n",ma);
+        System.out.printf("Min: "+"%.2f\n",mi);
     }
 }
